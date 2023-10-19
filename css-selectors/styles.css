@@ -38,12 +38,12 @@
 }
 .call-to-action {
     font-style: italic;
-    background-color: purple;
+    background-color: #ee5a5a;
 }
 .call-to-action:link,
 .call-to-action:visited {
   font-style: italic;
-  background-color: #EEB75A;   
+  background-color: #ee5a5a;   
 }
 
 .call-to-action:hover,
@@ -74,4 +74,18 @@ a:active {
 }
 a:visited:hover {
     color: coral;
+}
+p:last-of-type {
+    margin-bottom:  50px;
+}
+p:first-of-type {
+    color: antiquewhite;
+    font-style: italic;
+}
+.page> p:first-of-type {
+    color: black;
+    font-style: italic;
+}
+#button-2 {
+    color: #ee5a5a;
 }
